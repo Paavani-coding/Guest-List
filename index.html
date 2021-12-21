@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Guest List</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+    <body id="body_background">
+        <center>
+            <h1>Guest List</h1>
+            <br>
+            <input type="text" placeholder="Enter Name" class="form-control" id="g_name" style="width: 30%; margin-bottom: 15px;">
+            <button id="submit" class="btn btn-success" onclick="submit()">Submit</button>
+            <hr> <h3 id="display_with_commas"></h3><br><hr>
+            <h1>Guest List</h1>
+            <button id="show" onclick="show()" class="btn btn-primary">Show</button>
+            <h3 id="display_without_commas"></h3><br>
+            <hr>
+            <button id="sort" onclick="sort()" class="btn btn-warning">Sort</button>
+            <h3 id="display_sorted_list"></h3><br>
+            <hr>
+            <input type="text" placeholder="Search Name" class="form-control" id="search_name" style="width: 30%; margin-bottom: 15px;">
+            <h3 id="result_searched"></h3>
+            <button id="search" onclick="search_name()" class="btn btn-danger">Search</button>
+            <br><br>
+        </center>
+    </body>
+</html>
